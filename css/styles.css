@@ -24,13 +24,14 @@
   padding-top: 55px;
   word-wrap: break-word;
   margin-right: 50px;
-  color: #54676E;
+  font-family: 'futura';
 }
 
 .name {
   font-size: 50px;
   padding-top: 55px;
   padding-left: 50px;
+  font-family: 'futura';
 }
 
 ul {
@@ -44,6 +45,7 @@ ul {
   color: #00C3F6;
   font-weight: 400;
   margin-right: 40px;
+  font-family: sans-serif;
 }
 
 li a {
@@ -69,9 +71,8 @@ img:hover {
   justify-content: space-around;
 }
 
+
 img {
-  width: 300px;
-  height: 300px;
   filter: brightness(84%) grayscale(85%);
   transition: filter 500ms ease-in-out;
 }
@@ -84,17 +85,13 @@ img {
 }
 
 #custom {
-  margin-left: 20px;
+  margin-left: 50px;
   margin-top: 52px;
   width: 400px;
   height: 310px;
 }
 
-#hanks{
-  margin-left: 10px;
-  margin-top: 20px;
-  height: 377px;
-}
+
 
 #bio {
   margin-left: 100px;
@@ -104,9 +101,6 @@ img {
   font-size: 25px;
   text-indent: 15px;
   word-wrap: break-word;
-}
-
-body {
 }
 
 #clock {
@@ -125,8 +119,8 @@ body {
 }
 
 #holy {
-  margin-left: 100px;
-  font-weight: bold;
+  margin-left: 140px;
+  font-family: 'futura';
 }
 
 #work {
@@ -145,31 +139,49 @@ body {
   top: 290px;
   color: #00C3F6;
   letter-spacing: 100px;
+  font-family: sans-serif;
 }
 
 #cathedral {
-  margin-left: 100px;
-  margin-top: 20px;
+  margin-left: -320px;
+  margin-right: 50px;
+  margin-top: 50px;
   width: 400px;
   height: 300px;
+
 }
 
-#wax{
+#wax {
   margin-left: 180px;
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 30px;
+  margin-bottom: 150px;
   clear: both;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  font-weight: 400;
+  font-family: 'futura';
+}
+
+#carbon {
+  margin-top: 50px;
+  margin-left: 30px;
+  font-family: 'futura'
+
+}
+
+#debut {
+  width: 400px;
+  height: 300px;
+  margin-top: 15px;
 }
 
 
 @media only screen and (max-width: 1176px){
+
   #custom {
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
  .head {
@@ -180,6 +192,14 @@ body {
  .name {
    margin-top: -20px;
    margin-left: 55px;
+ }
+
+ #carbon {
+   margin-left: 140px;
+ }
+
+ #debut {
+   margin-left: 115px;
  }
 
 }
