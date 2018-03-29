@@ -202,4 +202,8 @@ img {
    margin-left: 115px;
  }
 
+ .vertical-text {
+   top: 600px;
+ }
+
 }
