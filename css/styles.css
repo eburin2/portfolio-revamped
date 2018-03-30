@@ -30,7 +30,7 @@
 .name {
   font-size: 50px;
   padding-top: 55px;
-  padding-left: 50px;
+  padding-left: 60px;
   font-family: 'futura';
 }
 
@@ -90,8 +90,6 @@ img {
   width: 400px;
   height: 310px;
 }
-
-
 
 #bio {
   margin-left: 100px;
@@ -176,6 +174,17 @@ img {
   margin-top: 15px;
 }
 
+#work-right {
+  width: 1em;
+  position: absolute;
+  left: 1000px;
+  top: 400px;
+  font-size: 100px;
+  width: 1em;
+  text-align: center;
+  font-weight: 400;
+  line-height: 175px;
+}
 
 @media only screen and (max-width: 1176px){
 
@@ -192,6 +201,7 @@ img {
  .name {
    margin-top: -20px;
    margin-left: 55px;
+   margin-right: 10px;
  }
 
  #carbon {
@@ -202,7 +212,8 @@ img {
    margin-left: 115px;
  }
 
- .vertical-text {
+ #work-right {
+   left: 550px;
    top: 600px;
  }
 
