@@ -102,22 +102,7 @@ img {
   word-wrap: break-word;
 }
 
-#clock {
-  width: 150px;
-  height: 300px;
-  color: #000;
-  font-weight: bold;
-  font-size: 50px;
-  width: 40px;
-  padding-top: 100px;
-  padding-left: 7px;
-  padding-right: 7px;
-  margin-left: 100px;
-  word-wrap: break-word;
-  text-align: center;
-}
-
-#holy {
+#sunlight {
   margin-left: 140px;
   font-family: 'futura';
 }
