@@ -46,7 +46,7 @@ ul {
   color: #00C3F6;
   font-weight: 400;
   margin-right: 75px;
-  font-family: 'futura';
+  font-family: 'futura' !important;
 }
 
 li a {
@@ -149,7 +149,7 @@ img {
 #carbon {
   margin-top: 50px;
   margin-left: 30px;
-  font-family: 'futura'
+  font-family: 'futura';
 
 }
 
