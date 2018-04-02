@@ -20,7 +20,7 @@
   -o-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
-  font-size: 50px;
+  font-size: 60px;
   padding-top: 55px;
   word-wrap: break-word;
   margin-right: 50px;
@@ -28,9 +28,9 @@
 }
 
 .name {
-  font-size: 50px;
+  font-size: 60px;
   padding-top: 55px;
-  padding-left: 60px;
+  margin-left: -70px;
   font-family: 'futura';
 
 }
@@ -41,11 +41,11 @@ ul {
   align-items: flex-end;
   list-style-type: none;
   margin-top: 25px;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   color: #00C3F6;
   font-weight: 400;
-  margin-right: 75px;
+  margin-right: 40px;
   font-family: 'futura' !important;
 }
 
@@ -62,7 +62,7 @@ li a:hover {
   font-weight: 400;
 }
 
-img:hover {
+.img:hover {
   filter: brightness(100%) grayscale(0%);
   border-bottom: 10px solid transparent;
 }
@@ -73,7 +73,7 @@ img:hover {
 }
 
 
-img {
+.img {
   filter: brightness(84%) grayscale(85%);
   transition: filter 500ms ease-in-out;
 }
@@ -82,7 +82,7 @@ img {
   margin-top: 15px;
   height: 310px;
   width: 400px;
-  margin-left: 100px;
+  margin-left: 170px;
 }
 
 #custom {
@@ -93,17 +93,17 @@ img {
 }
 
 #bio {
-  margin-left: 100px;
+  margin-left: 200px;
   margin-top: -100px;
   padding-bottom: 20px;
-  margin-right: 275px;
+  margin-right: 250px;
   font-size: 25px;
   text-indent: 15px;
   word-wrap: break-word;
 }
 
 #sunlight {
-  margin-left: 140px;
+  margin-left: 210px;
   font-family: 'futura';
 }
 
@@ -120,14 +120,15 @@ img {
   font-weight: 400;
   margin-left: 50px;
   position: relative;
-  top: 290px;
+  top: 270px;
+  left: 50px;
   color: #00C3F6;
   letter-spacing: 100px;
   font-family: 'futura';
 }
 
 #cathedral {
-  margin-left: -320px;
+  margin-left: -330px;
   margin-right: 50px;
   margin-top: 50px;
   width: 400px;
@@ -135,7 +136,7 @@ img {
 }
 
 #wax {
-  margin-left: 180px;
+  margin-left: 260px;
   margin-top: 50px;
   font-size: 30px;
   margin-bottom: 150px;
@@ -148,9 +149,8 @@ img {
 
 #carbon {
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 25px;
   font-family: 'futura';
-
 }
 
 #debut {
@@ -162,7 +162,7 @@ img {
 #work-right {
   width: 1em;
   position: absolute;
-  left: 1000px;
+  left: 1100px;
   top: 400px;
   font-size: 100px;
   width: 1em;
@@ -172,65 +172,52 @@ img {
   font-family: 'futura';
 }
 
+
 @media only screen and (max-width: 1176px){
 
   #custom {
-    margin-left: 100px;
+    margin-left: 170px;
     margin-top: 50px;
   }
 
  .head {
    margin-top: -20px;
    margin-right: 150px;
-   margin-left: 100px;
+   margin-left: 90px;
  }
 
  .name {
    margin-top: -20px;
-   margin-left: 5px;
-   margin-right: 10px;
+   margin-left: 150px;
+   margin-right: 40px;
  }
 
  #carbon {
-   margin-left: 140px;
+   margin-left: 220px;
  }
 
  #debut {
-   margin-left: 115px;
+   margin-left: 185px;
  }
 
  #work-right {
-   left: 550px;
+   left: 685px;
    top: 1200px;
  }
 
  ul {
-   margin-left: -30px;
+   margin-left: -20px;
    margin-top: 30px;
-   margin-right: 240px;
+   margin-right: 150px;
  }
 
  #cathedral {
-   margin-left: -320px;
+   margin-left: -330px;
    margin-top: 45px;
-   margin-right: 100px;
  }
 
 }
 
-/* @media only screen and (min-width: 1177px){
-  .head {
-    padding-left: 150px;
-  }
-
-  .name {
-    margin-left: 30px;
-  }
-
-  ul {
-    margin-top: 50px;
-  }
-} */
 
 @media only screen and (min-width: 1177px){
   .head {
@@ -250,4 +237,10 @@ img {
     margin-left: -70px;
   }
 
+}
+
+@media only screen and (max-width: 415px){
+  #cathedral {
+    margin-top: -100px;
+  }
 }
