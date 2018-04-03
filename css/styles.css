@@ -182,14 +182,12 @@ li a:hover {
   }
 
   .name {
-    margin-right: 30px;
-    margin-left: -30px;
+    margin-left: 20px;
     font-size: 45px;
-    word-wrap: break-word;
   }
 
   ul {
-    margin-left: -550px;
+    margin-left: -770px;
     font-size: 20px;
   }
 
