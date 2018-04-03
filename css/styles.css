@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 85vw;
+  width: 84vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -21,18 +21,19 @@
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
   font-size: 60px;
-  padding-top: 55px;
-  word-wrap: break-word;
+  padding-top: 45px;
+  white-space: nowrap;
   margin-right: 50px;
   font-family: 'futura';
 }
 
 .name {
   font-size: 60px;
-  padding-top: 55px;
-  margin-left: -70px;
+  padding-top: 45px;
+  margin-left: 100px;
+  margin-right: 20px;
   font-family: 'futura';
-
+  white-space: nowrap;
 }
 
 ul {
@@ -41,12 +42,12 @@ ul {
   align-items: flex-end;
   list-style-type: none;
   margin-top: 25px;
-  font-size: 25px;
+  font-size: 24px;
   text-decoration: none;
   color: #00C3F6;
   font-weight: 400;
   margin-right: 40px;
-  font-family: 'futura' !important;
+  font-family: 'futura';
 }
 
 li a {
@@ -79,31 +80,30 @@ li a:hover {
 }
 
 #seeds {
-  margin-top: 15px;
   height: 310px;
   width: 400px;
-  margin-left: 170px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #custom {
-  margin-left: 50px;
-  margin-top: 52px;
   width: 400px;
   height: 310px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #bio {
-  margin-left: 200px;
-  margin-top: -100px;
+  margin-left: 100px;
   padding-bottom: 20px;
   margin-right: 250px;
   font-size: 25px;
   text-indent: 15px;
-  word-wrap: break-word;
 }
 
-#sunlight {
-  margin-left: 210px;
+.sunlight {
+  margin-left: 80px;
+  font-size: 30px;
   font-family: 'futura';
 }
 
@@ -113,134 +113,72 @@ li a:hover {
   width: 100px;
 }
 
+
 .vertical-text {
 	transform: rotate(90deg);
 	transform-origin: left top 0;
   font-size: 100px;
   font-weight: 400;
-  margin-left: 50px;
+  margin-left: 100px;
   position: relative;
-  top: 270px;
-  left: 50px;
+  top: 470px;
+  left: -50px;
   color: #00C3F6;
   letter-spacing: 100px;
   font-family: 'futura';
 }
 
 #cathedral {
-  margin-left: -330px;
-  margin-right: 50px;
-  margin-top: 50px;
   width: 400px;
-  height: 300px;
+  height: 310px;
+  margin-left: 50px
 }
 
 #wax {
-  margin-left: 260px;
-  margin-top: 50px;
+  margin-left: 130px;
   font-size: 30px;
-  margin-bottom: 150px;
-  clear: both;
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
   font-family: 'futura';
 }
 
 #carbon {
   margin-top: 50px;
-  margin-left: 25px;
+  margin-left: 130px;
   font-family: 'futura';
+  font-size: 30px;
 }
 
 #debut {
-  width: 400px;
-  height: 300px;
-  margin-top: 15px;
+  width: 1300px;
+  height: 310px;
+  margin-bottom: 40px;
+  margin-left: 60px;
 }
 
 #work-right {
-  width: 1em;
-  position: absolute;
-  left: 1100px;
-  top: 400px;
-  font-size: 100px;
-  width: 1em;
-  text-align: center;
-  font-weight: 400;
-  line-height: 185px;
-  font-family: 'futura';
+  visibility: hidden;
 }
 
 
-@media only screen and (max-width: 1176px){
-
-  #custom {
-    margin-left: 170px;
-    margin-top: 50px;
+@media only screen and (max-width: 800px) {
+  #work-right {
+    visibility: visible;
+    width: 1em;
+    position: absolute;
+    left: 550px;
+    top: 1000px;
+    display: inline;
+    font-size: 100px;
+    width: 1em;
+    text-align: center;
+    font-weight: 400;
+    line-height: 185px;
+    font-family: 'futura';
   }
 
- .head {
-   margin-top: -20px;
-   margin-right: 150px;
-   margin-left: 90px;
- }
-
- .name {
-   margin-top: -20px;
-   margin-left: 150px;
-   margin-right: 40px;
- }
-
- #carbon {
-   margin-left: 220px;
- }
-
- #debut {
-   margin-left: 185px;
- }
-
- #work-right {
-   left: 685px;
-   top: 1200px;
- }
-
- ul {
-   margin-left: -20px;
-   margin-top: 30px;
-   margin-right: 150px;
- }
-
- #cathedral {
-   margin-left: -330px;
-   margin-top: 45px;
- }
-
-}
-
-
-@media only screen and (min-width: 1177px){
   .head {
-    padding-left: 135px;
-    white-space: nowrap;
-    margin-top: 5px;
+    visibility: hidden !important;
   }
 
   .name {
-   white-space: nowrap;
-   padding-right: 100px;
-   padding-left: 0px;
-   margin-top: 5px;
+    margin-left: 500px;
   }
-
-  ul {
-    margin-left: -70px;
-  }
-
-}
-
-@media only screen and (max-width: 415px){
-  #cathedral {
-    margin-top: -100px;
-  }
-}
