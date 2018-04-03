@@ -121,7 +121,7 @@ li a:hover {
   font-weight: 400;
   margin-left: 100px;
   position: relative;
-  top: 470px;
+  top: 420px;
   left: -50px;
   color: #00C3F6;
   letter-spacing: 100px;
@@ -159,7 +159,7 @@ li a:hover {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   #work-right {
     visibility: visible;
     width: 1em;
@@ -176,9 +176,27 @@ li a:hover {
   }
 
   .head {
-    visibility: hidden !important;
+    visibility: hidden;
   }
 
   .name {
-    margin-left: 500px;
+    margin-right: 30px;
+    margin-left: -30px;
+    font-size: 45px;
+    word-wrap: break-word;
   }
+
+  ul {
+    margin-left: -550px;
+    font-size: 20px;
+  }
+
+  #debut {
+    width: 400px;
+    height: 310px;
+  }
+
+  #carbon {
+    margin-left: 70px;
+  }
+}
