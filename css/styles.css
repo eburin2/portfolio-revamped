@@ -73,7 +73,6 @@ li a:hover {
   justify-content: space-around;
 }
 
-
 .img {
   filter: brightness(84%) grayscale(85%);
   transition: filter 500ms ease-in-out;
@@ -103,7 +102,6 @@ li a:hover {
 
 .sunlight {
   margin-left: 80px;
-  font-size: 30px;
   font-family: 'futura';
   white-space: nowrap;
 }
@@ -113,7 +111,6 @@ li a:hover {
   justify-content: flex-start;
   width: 100px;
 }
-
 
 .vertical-text {
 	transform: rotate(90deg);
@@ -137,16 +134,14 @@ li a:hover {
 
 #wax {
   margin-left: 130px;
-  font-size: 30px;
   font-family: 'futura';
   white-space: nowrap;
 }
 
 #carbon {
   margin-top: 50px;
-  margin-left: 130px;
+  margin-left: 85px;
   font-family: 'futura';
-  font-size: 30px;
 }
 
 #debut {
