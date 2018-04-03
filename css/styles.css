@@ -101,7 +101,7 @@ li a:hover {
 }
 
 .sunlight {
-  margin-left: 50px;
+  margin-left: 40px;
   font-family: 'futura';
   white-space: nowrap;
 }
@@ -119,7 +119,7 @@ li a:hover {
   font-weight: 400;
   margin-left: 100px;
   position: relative;
-  top: 420px;
+  top: 500px;
   left: -50px;
   color: #00C3F6;
   letter-spacing: 100px;
@@ -156,13 +156,13 @@ li a:hover {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1199px) {
   #work-right {
     visibility: visible;
     width: 1em;
     position: absolute;
     left: 725px;
-    top: 1275px;
+    top: 1260px;
     display: inline;
     font-size: 100px;
     width: 1em;
@@ -210,7 +210,8 @@ li a:hover {
   }
 
   .sunlight {
-    margin-left: 240px;
+    margin-left: 260px;
+    padding-top: 10px;
   }
 
   #bio {
@@ -218,7 +219,8 @@ li a:hover {
   }
 
   #carbon {
-    margin-left: 225px;
+    margin-left: 260px;
+    margin-top: 35px;
   }
 
   #cathedral {
@@ -226,21 +228,32 @@ li a:hover {
   }
 
   #wax {
-    margin-left: 275px;
-    margin-top: 20px;
+    padding-left: 210px;
+    padding-top: 10px;
   }
-}
-
-@media only screen and (min-width: 1025px) {
-
-.vertical-text {
-  top: 750px;
-  }
-
 }
 
 @media screen and (min-width: 1200px){
   .vertical-text {
     top: 500px;
+  }
+
+  .sunlight {
+    padding-left: 35px;
+  }
+
+  #wax {
+    padding-left: 10px;
+  }
+
+}
+
+@media screen and (min-width: 1300px){
+  .sunlight {
+    padding-left: 60px;
+  }
+
+  #wax {
+    padding-left: 50px;
   }
 }
