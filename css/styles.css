@@ -159,13 +159,13 @@ li a:hover {
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
   #work-right {
     visibility: visible;
     width: 1em;
     position: absolute;
-    left: 550px;
-    top: 1000px;
+    left: 575px;
+    top: 1200px;
     display: inline;
     font-size: 100px;
     width: 1em;
@@ -173,6 +173,10 @@ li a:hover {
     font-weight: 400;
     line-height: 185px;
     font-family: 'futura';
+  }
+
+  .vertical-text {
+    top: 750px;
   }
 
   .head {
@@ -198,5 +202,19 @@ li a:hover {
 
   #carbon {
     margin-left: 70px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+
+.vertical-text {
+  top: 750px;
+  }
+
+}
+
+@media screen and (min-width: 1200px){
+  .vertical-text {
+    top: 500px;
   }
 }
