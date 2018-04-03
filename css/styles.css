@@ -161,8 +161,8 @@ li a:hover {
     visibility: visible;
     width: 1em;
     position: absolute;
-    left: 775px;
-    top: 1200px;
+    left: 725px;
+    top: 1275px;
     display: inline;
     font-size: 100px;
     width: 1em;
@@ -173,7 +173,7 @@ li a:hover {
   }
 
   .vertical-text {
-    top: 750px;
+    top: 800px;
     left: 100px;
   }
 
@@ -196,15 +196,15 @@ li a:hover {
   #debut {
     width: 400px;
     height: 310px;
-    margin-left: 240px;
+    margin-left: 210px;
   }
 
   #seeds {
-    margin-left: 230px;
+    margin-left: 200px;
   }
 
   #custom {
-    margin-left: 230px;
+    margin-left: 200px;
   }
 
   .sunlight {
@@ -216,15 +216,15 @@ li a:hover {
   }
 
   #carbon {
-    margin-left: 260px;
-  }
-
-  #cathedral {
     margin-left: 230px;
   }
 
+  #cathedral {
+    margin-left: 200px;
+  }
+
   #wax {
-    margin-left: 300px;
+    margin-left: 275px;
     margin-top: 20px;
   }
 }
