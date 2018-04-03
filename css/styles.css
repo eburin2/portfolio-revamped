@@ -64,8 +64,8 @@ li a:hover {
 }
 
 .img:hover {
-  filter: brightness(100%) grayscale(0%);
-  border-bottom: 10px solid transparent;
+  filter: brightness(100%) grayscale(0%) !important;
+  border-bottom: 10px solid transparent !important;
 }
 
 #header {
@@ -101,7 +101,7 @@ li a:hover {
 }
 
 .sunlight {
-  margin-left: 80px;
+  margin-left: 50px;
   font-family: 'futura';
   white-space: nowrap;
 }
@@ -133,7 +133,7 @@ li a:hover {
 }
 
 #wax {
-  margin-left: 130px;
+  margin-left: 90px;
   font-family: 'futura';
   white-space: nowrap;
 }
@@ -198,7 +198,7 @@ li a:hover {
   #debut {
     width: 400px;
     height: 310px;
-    margin-left: 210px;
+    margin-left: 215px;
   }
 
   #seeds {
@@ -218,7 +218,7 @@ li a:hover {
   }
 
   #carbon {
-    margin-left: 230px;
+    margin-left: 225px;
   }
 
   #cathedral {
