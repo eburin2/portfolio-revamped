@@ -145,11 +145,10 @@ li a:hover {
 }
 
 #debut {
-  width: 98%;
+  width: 97%;
   height: 350px;
   margin-bottom: 40px;
-  margin-left: 62px;
-  /* margin-right: 100px; */
+  margin-left: 64px;
 }
 
 #work-right {
