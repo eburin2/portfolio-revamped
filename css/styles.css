@@ -85,6 +85,14 @@ li a:hover {
   margin-right: 50px;
 }
 
+hr {
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color: black;
+  height: 2px;
+}
+
 #custom {
   width: 400px;
   height: 310px;
@@ -93,7 +101,7 @@ li a:hover {
 }
 
 #bio {
-  margin-left: 100px;
+  margin-left: 150px;
   padding-bottom: 20px;
   margin-right: 250px;
   font-size: 25px;
