@@ -116,12 +116,12 @@ hr {
 #bio {
   margin-left: 250px;
   padding-bottom: 25px;
-  margin-right: 200px;
+  margin-right: 300px;
   font-size: 30px;
-  text-indent: 15px;
+  text-indent: 50px;
   font-family: sans-serif;
   margin-top: 50px;
-  overflow-wrap: normal;
+  overflow-wrap: break-word;
 }
 
 .sunlight {
@@ -239,7 +239,8 @@ hr {
   }
 
   #bio {
-    margin-left: 240px;
+    margin-left: 290px;
+    margin-right: 250px;
   }
 
   #carbon {
