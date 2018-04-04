@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 85vw;
+  width: 84vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -20,18 +20,20 @@
   -o-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
-  font-size: 50px;
-  padding-top: 55px;
-  word-wrap: break-word;
+  font-size: 60px;
+  padding-top: 45px;
+  white-space: nowrap;
   margin-right: 50px;
   font-family: 'futura';
 }
 
 .name {
-  font-size: 50px;
-  padding-top: 55px;
-  padding-left: 60px;
+  font-size: 60px;
+  padding-top: 45px;
+  margin-left: 100px;
+  margin-right: 20px;
   font-family: 'futura';
+  white-space: nowrap;
 }
 
 ul {
@@ -40,12 +42,12 @@ ul {
   align-items: flex-end;
   list-style-type: none;
   margin-top: 25px;
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
   color: #00C3F6;
   font-weight: 400;
   margin-right: 40px;
-  font-family: sans-serif;
+  font-family: 'futura';
 }
 
 li a {
@@ -61,9 +63,9 @@ li a:hover {
   font-weight: 400;
 }
 
-img:hover {
-  filter: brightness(100%) grayscale(0%);
-  border-bottom: 10px solid transparent;
+.img:hover {
+  filter: brightness(100%) grayscale(0%) !important;
+  border-bottom: 10px solid transparent !important;
 }
 
 #header {
@@ -71,54 +73,61 @@ img:hover {
   justify-content: space-around;
 }
 
-
-img {
+.img {
   filter: brightness(84%) grayscale(85%);
   transition: filter 500ms ease-in-out;
 }
 
 #seeds {
-  margin-top: 15px;
   height: 310px;
   width: 400px;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+hr {
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color: black;
+  height: 2px;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+#elliot {
+  border-radius: 50%;
+  filter: brightness(84%) grayscale(85%);
+  transition: filter 500ms ease-in-out;
+  width: 250px;
+  margin-top: -85px;
 }
 
 #custom {
-  margin-left: 50px;
-  margin-top: 52px;
   width: 400px;
   height: 310px;
+  margin-left: 48px;
+  margin-right: 50px;
 }
 
 #bio {
-  margin-left: 100px;
-  margin-top: -100px;
-  padding-bottom: 20px;
-  margin-right: 275px;
-  font-size: 25px;
+  margin-left: 250px;
+  padding-bottom: 25px;
+  margin-right: 200px;
+  font-size: 30px;
   text-indent: 15px;
-  word-wrap: break-word;
+  font-family: sans-serif;
+  margin-top: 50px;
+  overflow-wrap: break-word;
 }
 
-#clock {
-  width: 150px;
-  height: 300px;
-  color: #000;
-  font-weight: bold;
-  font-size: 50px;
-  width: 40px;
-  padding-top: 100px;
-  padding-left: 7px;
-  padding-right: 7px;
-  margin-left: 100px;
-  word-wrap: break-word;
-  text-align: center;
-}
-
-#holy {
-  margin-left: 140px;
+.sunlight {
+  margin-left: 40px;
   font-family: 'futura';
+  white-space: nowrap;
 }
 
 #work {
@@ -132,89 +141,143 @@ img {
 	transform-origin: left top 0;
   font-size: 100px;
   font-weight: 400;
-  margin-left: 50px;
+  margin-left: 100px;
   position: relative;
-  top: 290px;
+  /* top: 500px; */
+  left: -50px;
   color: #00C3F6;
   letter-spacing: 100px;
-  font-family: sans-serif;
+  font-family: 'futura';
 }
 
 #cathedral {
-  margin-left: -320px;
-  margin-right: 50px;
-  margin-top: 50px;
   width: 400px;
-  height: 300px;
-
+  height: 310px;
+  margin-left: 50px
 }
 
 #wax {
-  margin-left: 180px;
-  margin-top: 50px;
-  font-size: 30px;
-  margin-bottom: 150px;
-  clear: both;
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
+  margin-left: 90px;
   font-family: 'futura';
+  white-space: nowrap;
 }
 
 #carbon {
   margin-top: 50px;
-  margin-left: 30px;
-  font-family: 'futura'
-
+  margin-left: 85px;
+  font-family: 'futura';
 }
 
 #debut {
-  width: 400px;
-  height: 300px;
-  margin-top: 15px;
+  width: 97%;
+  height: 350px;
+  margin-bottom: 40px;
+  margin-left: 64px;
 }
 
 #work-right {
-  width: 1em;
-  position: absolute;
-  left: 1000px;
-  top: 400px;
-  font-size: 100px;
-  width: 1em;
-  text-align: center;
-  font-weight: 400;
-  line-height: 175px;
+  visibility: hidden;
 }
 
-@media only screen and (max-width: 1176px){
 
-  #custom {
-    margin-left: 100px;
-    margin-top: 50px;
+@media only screen and (max-width: 1199px) {
+  #work-right {
+    visibility: visible;
+    width: 1em;
+    position: absolute;
+    left: 725px;
+    top: 1270px;
+    display: inline;
+    font-size: 100px;
+    width: 1em;
+    text-align: center;
+    font-weight: 400;
+    line-height: 185px;
+    font-family: 'futura';
   }
 
- .head {
-   margin-top: -20px;
-   margin-right: 200px;
- }
+  .vertical-text {
+    top: 750px;
+    left: 100px;
+  }
 
- .name {
-   margin-top: -20px;
-   margin-left: 55px;
-   margin-right: 10px;
- }
+   .head {
+    margin-right: 200px;
+  }
 
- #carbon {
-   margin-left: 140px;
- }
+  .name {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
 
- #debut {
-   margin-left: 115px;
- }
+  .name, .head {
+    font-size: 45px;
+  }
 
- #work-right {
-   left: 550px;
-   top: 600px;
- }
+  ul {
+    margin-left: -150px;
+    font-size: 20px;
+  }
 
+  #debut {
+    width: 400px;
+    height: 310px;
+    margin-left: 215px;
+  }
+
+  #seeds {
+    margin-left: 200px;
+  }
+
+  #custom {
+    margin-left: 200px;
+  }
+
+  .sunlight {
+    margin-left: 260px;
+    padding-top: 10px;
+  }
+
+  #bio {
+    margin-left: 240px;
+  }
+
+  #carbon {
+    margin-left: 260px;
+    margin-top: 35px;
+  }
+
+  #cathedral {
+    margin-left: 200px;
+  }
+
+  #wax {
+    padding-left: 210px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .vertical-text {
+    top: 700px;
+  }
+
+  .sunlight {
+    padding-left: 35px;
+  }
+
+  #wax {
+    padding-left: 10px;
+  }
+
+}
+
+@media screen and (min-width: 1300px){
+  .sunlight {
+    padding-left: 60px;
+  }
+
+  #wax {
+    padding-left: 50px;
+  }
 }
