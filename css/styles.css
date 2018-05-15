@@ -284,3 +284,12 @@ hr {
     padding-left: 50px;
   }
 }
+
+@media screen and (min-width: 1500px){
+  #debut {
+    width: 1780px;
+  }
+  #elliot {
+    margin-left: -100px;
+  }
+}
