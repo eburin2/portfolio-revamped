@@ -298,5 +298,17 @@ hr {
     top: 600px;
   }
 
+  .name {
+    margin-left: -210px;
+  }
+
+  .head {
+    margin-left: -300px;
+  }
+
+  ul {
+    margin-right: -150px;
+  }
+
 
 }
