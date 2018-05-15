@@ -289,7 +289,14 @@ hr {
   #debut {
     width: 1780px;
   }
+
   #elliot {
     margin-left: -100px;
   }
+
+  .vertical-text {
+    top: 600px;
+  }
+
+
 }
